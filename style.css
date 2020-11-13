@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outerbox{
+    height: 91.5vh;
+    background-image: url("./img/bgimage.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox{
+    
+    width: 60%;
+}
+.innerbox h1{
+    color: white;
+    font-weight: 1000;
+    font-size: 5rem;
+}
+.innerbox p{
+    color: white;
+}
+.innerbox .btn{
+    background-color: darkorange;
+    color: white;
+    font-weight: 500;
+}
+.head-title{
+    color: #003399;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.head{
+    color: #003399;
+}
+.icon-color{
+    color:  #66c2ff;
+}
+.btn-style{
+    color: #66c2ff;
+    background-color: #f2f2f2;
+}
+.services-btn{
+    color: #003399;
+    font-weight: 500;
+}
+.marg .btn{
+    background-color: rgb(62, 189, 211);
+    color: white;
+    font-weight: 600;
+    border-radius: 0;
+}
+
+.height{
+    height: 300px;
+}
+.last{
+    margin-right: 10%;
+}
+
+.marg h2{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.cardimg{
+    height: 150px;
+}
+.floatright{
+    float: right;
+}
+
+div.scrollmenu {
+background-color: white;
+overflow: auto;
+white-space: nowrap;
+}
+
+div.scrollmenu a {
+display: inline-block;
+color: black;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+}
+.active{
+    background-color: #f2f2f2;
+}
+div.scrollmenu a:hover {
+background-color: lightgrey;
+}
+
+@media screen and (max-width: 1000px){
+    .dispcols{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .dispcols2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 816px){
+    .height{
+        height: 150px;
+    }
+    .cardimg{
+        height: 100px;
+    }
+    .sample span{
+        display: none;
+    }
+    .mainbox{
+    
+        width: 100%;
+    }
+    .outerbox{
+        padding: 12px 12px 0px 12px;
+        display: block;
+        height: 70vh;
+        text-align: center;
+    }
+    .marg  h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 557px){
+    .innerbox h1{
+        font-size: 2rem;
+    }
+    .floatright{
+        float: left;
+    }
+}
